@@ -8,8 +8,8 @@ from langchain_groq import ChatGroq
 import uvicorn 
 
 
-groq_api_key = os.getenv("GROQ_API_KEY", 'gsk_xxxxx')
-os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY", 'tvly-dev-xxxxx')
+groq_api_key = os.getenv("GROQ_API_KEY")
+tavily_api_key = os.getenv("TAVILY_API_KEY")
 
 MODEL_NAMES = [
     "llama-3.3-70b-versatile",
