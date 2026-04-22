@@ -5,4 +5,5 @@ langchain_community
 langgraph
 langchain_groq
 uvicorn
+numpy
 streamlit
