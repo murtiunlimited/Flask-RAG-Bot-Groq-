@@ -11,4 +11,4 @@ Add this Body ---> raw :
   "messages": ["Hello", "How are you?"]
 }
 
-And send request
+And the send request
