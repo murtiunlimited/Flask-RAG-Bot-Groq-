@@ -7,4 +7,3 @@ langchain_groq
 uvicorn
 numpy
 streamlit
-pandas
